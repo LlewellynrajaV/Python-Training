@@ -19,7 +19,7 @@ while i < len(sales):
     if total > target:
         break
 
-    i += 1
+    i =i+1
 
 if total > target:
     print("Target reached. Stopped at", total)

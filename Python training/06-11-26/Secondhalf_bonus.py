@@ -1,5 +1,4 @@
 
-# Bonus Challenge: __str__() method
 class InsufficientFundsError(Exception):
     pass
 class Account:
@@ -25,19 +24,13 @@ class Account:
         print("Owner:", self.owner)
         print("Balance:", self.balance)
 
-    # Bonus: String representation
     def __str__(self):
         return f"Owner: {self.owner}, Balance: {self.balance}"
 
-
-# Create account
 account = Account("Arun", 1000)
 
-# Print account object
 print(account)
 
-# Deposit money
 account.deposit(500)
 
-# Print updated account
 print(account)

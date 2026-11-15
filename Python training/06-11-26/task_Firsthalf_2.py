@@ -1,9 +1,7 @@
-
 prices = [500, 1200, 800, 2500, 300]
 
-
 def apply_discount(price, discount=10):
-    return round(price - (price * discount / 100), 2)
+    return round(price - (price * discount / 100))
 
 
 print("apply_discount(1000) ->", apply_discount(1000))

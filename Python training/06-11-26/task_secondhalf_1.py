@@ -19,7 +19,6 @@ class Account:
     def show(self):
         print(f"Owner: {self.owner}, Balance: {self.balance}")
 
-# Test Task 1
 arun = Account("Arun", 1000)
 try:
     arun.deposit(500)
@@ -30,7 +29,6 @@ finally:
     print("Transaction finished")
 
 
-### Task 2: Inheritance and Overriding
 class InsufficientFundsError(Exception):
     pass
 
