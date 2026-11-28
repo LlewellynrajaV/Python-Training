@@ -37,7 +37,7 @@ plt.figure(figsize=(8, 5))
 plt.plot(losses_0001, label="lr = 0.001 (slow convergence)")
 plt.plot(losses_005, label="lr = 0.05 (steady convergence)")
 plt.plot(losses_05, label="lr = 0.5 (diverges)")
-plt.yscale("log")  # Log scale makes divergence and small losses easy to see
+plt.yscale("log")  
 plt.title("Gradient Descent Loss Curves Across Learning Rates")
 plt.xlabel("Step")
 plt.ylabel("Loss (log scale)")
